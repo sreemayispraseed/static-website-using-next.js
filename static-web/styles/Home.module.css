@@ -29,3 +29,22 @@
 .roundimage{
     border-radius: 50%;
 }
+.profile_icon_text_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rightside_card{
+    max-width: 550px;
+}
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+}
+.rightside_text{
+    font-size: 1rem;
+}
+.leftside_text{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
