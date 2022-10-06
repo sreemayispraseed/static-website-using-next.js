@@ -11,7 +11,8 @@
     font-size: 5rem;
 }
 .right_text{
-    font-size: 1.5rem;
+  font-size: 1.5rem; 
+    
 }
 .nextjsLink:hover,
 .nextjsLink:focus,
@@ -40,7 +41,8 @@
 .flex_container
 {
     display: flex;
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0rem 3.5rem;   
 }
 .rightside_text{
@@ -50,6 +52,7 @@
 .leftside_text{
     font-weight: 400;
     font-size: 2.5rem;
+    max-width: 600px;
 }
 .date{
     font-size: 1.5rem;
@@ -76,4 +79,13 @@
 .textCard_image_container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer_text{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.buttonRead{
+    width: 200px;
+    height: 50px;
 }

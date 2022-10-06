@@ -19,6 +19,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.head_title_container}>
           <h1 className={styles.blog}>Blog.</h1>
+          
           <p className={styles.right_text}>A statically generated blog example using {""}
           <a className={styles.nextjsLink}  href="https://nextjs.org/" >Next.js</a>
           </p>
