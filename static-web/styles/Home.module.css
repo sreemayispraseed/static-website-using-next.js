@@ -37,16 +37,14 @@
 .rightside_card{
     max-width: 550px;
 }
-.flex_container,
-.moredetails_container{
+.flex_container
+{
     display: flex;
     
-    padding: 0rem 3.5rem;
-
-    
+    padding: 0rem 3.5rem;   
 }
 .rightside_text{
-    font-size: 1rem;
+    font-size: 20px;
 
 }
 .leftside_text{
@@ -54,10 +52,28 @@
     font-size: 2.5rem;
 }
 .date{
+    font-size: 1.5rem;
     font-weight: 300;
 }
 .leftside_card{    
 }
 .titletext_left{
     font-size: 2.5rem;
+}
+.moredetails_container{
+  padding: .5rem 3.5rem;  
+}
+.seaimage_container{
+    max-width: 500px;
+}
+.imagecard_title_text{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.image_card_container{
+    max-width: 500px;
+}
+.textCard_image_container{
+    display: flex;
+    justify-content: space-between;
 }

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import mountain from '.././public/mountain.jpg'
 import styles from '../styles/Home.module.css'
+import { ImageTextCard } from './Components/ImageTextCard'
 import { TextCard } from './Components/textCard'
 
 
@@ -30,12 +31,33 @@ const Home: NextPage = () => {
           <h2 className={styles.leftside_text}>From Server-side Rendering to Static Generation</h2>
           <h5 className={styles.date}>June 2, 2022</h5>
           </div>
-         <TextCard />
+         <TextCard
+         Text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid dubitas igitur mutare principia naturae? Ita multo sanguine profuso in laetitia et in victoria est mortuus. Omnia contraria, quos etiam insanos esse vultis. Hinc ceteri particulas arripere conati suam quisque videro voluit afferre sententiam. Quis non odit sordidos, vanos, leves, futtiles? Quasi ego id curem, quid ille aiat aut neget.' />
         </div>
         <div className={styles.moredetails_container}>
           <h1 className={styles.titletext_left}>More Stories</h1>
+          <div className={styles.textCard_image_container}>
+            <ImageTextCard
+             title="Learn How to Pre-render Pages Using Static Generation with Next.js"
+             date='June 2, 2022'
+             Text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit hoc ultimum bonorum, quod nunc a me defenditur; Vitae autem degendae ratio maxime quidem illis placuit quieta. Duo Reges: constructio interrete. Nam quid possumus facere melius?'
+             />
+             
+             <ImageTextCard
+             title="Deploying Next.js Apps"
+             date='June 2, 2022'
+             Text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit hoc ultimum bonorum, quod nunc a me defenditur; Vitae autem degendae ratio maxime quidem illis placuit quieta. Duo Reges: constructio interrete. Nam quid possumus facere melius?'
+             />
+          </div>
         </div>
       </main>
+      <footer className={styles.footer}>
+        <p className={styles.footer_text}>Statically Generated with Next.js.</p>
+        <div className={styles.righttext_footer}>
+          <button className={styles.buttonRead}>Read Documentation</button>
+          <a className={styles.linkGithub} href='https://github.com/sreemayispraseed/static-website-using-next.js' >View on GitHub</a>
+        </div>
+      </footer>
 
     </div>
   )
