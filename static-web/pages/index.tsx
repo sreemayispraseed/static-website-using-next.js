@@ -55,7 +55,11 @@ const Home: NextPage = () => {
       <footer className={styles.footer}>
         <p className={styles.footer_text}>Statically Generated with Next.js.</p>
         <div className={styles.righttext_footer}>
-          <button className={styles.buttonRead}>Read Documentation</button>
+          <a href='https://nextjs.org/docs/basic-features/pages'>
+          <button className={styles.buttonRead} 
+          
+          >Read Documentation</button>
+          </a>
           <a className={styles.linkGithub} href='https://github.com/sreemayispraseed/static-website-using-next.js' >View on GitHub</a>
         </div>
       </footer>
