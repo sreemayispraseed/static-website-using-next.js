@@ -22,6 +22,10 @@
 .coverimage_container{
  padding: .5rem 4rem;
 }
+.image_container{
+    width: 25px;
+    height: 25px;
+}
 .roundimage{
     border-radius: 50%;
 }
