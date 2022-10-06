@@ -37,14 +37,27 @@
 .rightside_card{
     max-width: 550px;
 }
-.flex_container{
+.flex_container,
+.moredetails_container{
     display: flex;
-    justify-content: space-between;
+    
+    padding: 0rem 3.5rem;
+
+    
 }
 .rightside_text{
     font-size: 1rem;
+
 }
 .leftside_text{
     font-weight: 400;
+    font-size: 2.5rem;
+}
+.date{
+    font-weight: 300;
+}
+.leftside_card{    
+}
+.titletext_left{
     font-size: 2.5rem;
 }

@@ -31,7 +31,9 @@ const Home: NextPage = () => {
           <h5 className={styles.date}>June 2, 2022</h5>
           </div>
          <TextCard />
-          
+        </div>
+        <div className={styles.moredetails_container}>
+          <h1 className={styles.titletext_left}>More Stories</h1>
         </div>
       </main>
 
