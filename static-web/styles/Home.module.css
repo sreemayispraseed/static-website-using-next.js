@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem;
+    flex-wrap: wrap;
+    padding: .5rem 4rem;
 }
 
 
@@ -16,5 +17,11 @@
 .nextjsLink:focus,
 .nextjsLink:active{
     color: blue;
-    
+
+}
+.coverimage_container{
+ padding: .5rem 4rem;
+}
+.roundimage{
+    border-radius: 50%;
 }

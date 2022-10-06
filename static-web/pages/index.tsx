@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import mountain from '.././public/mountain.jpg'
 import styles from '../styles/Home.module.css'
+import profile_icon from '../public/profile_icon.webp'
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +21,23 @@ const Home: NextPage = () => {
           <a className={styles.nextjsLink}  href="https://nextjs.org/" >Next.js</a>
           </p>
         </div>
-        <Image src={mountain}></Image>
+        <div className={styles.coverimage_container}>
+          <Image src={mountain}></Image>
+        </div>
+        <div className={styles.flex_container}>
+          <div className={styles.leftside_card}>
+          <h2 className={styles.left_text}>From Server-side Rendering to Static Generation</h2>
+          <h5 className={styles.date}>June 2, 2022</h5>
+          </div>
+          <div className={styles.rightside_card}>
+            <p className={styles.rightside_text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid dubitas igitur mutare principia naturae? Ita multo sanguine profuso in laetitia et in victoria est mortuus. Omnia contraria, quos etiam insanos esse vultis. Hinc ceteri particulas arripere conati suam quisque videro voluit afferre sententiam. Quis non odit sordidos, vanos, leves, futtiles? Quasi ego id curem, quid ille aiat aut neget.</p>
+            <div className={styles.profile_icon_text_container}>
+              <Image className={styles.roundimage} src={profile_icon }></Image>
+              <h4 className={styles.nametext}>UserName LastName</h4>
+            </div>
+          </div>
+          
+        </div>
       </main>
 
     </div>
