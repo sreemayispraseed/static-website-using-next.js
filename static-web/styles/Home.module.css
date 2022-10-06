@@ -84,8 +84,37 @@
 .footer_text{
     font-size: 2.5rem;
     font-weight: 700;
+    
 }
 .buttonRead{
     width: 200px;
     height: 50px;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+}
+.buttonRead:hover,
+.buttonRead:focus,
+.buttonRead:active{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.linkGithub{
+    font-size: 20px;
+    font-weight: 700;
+}
+.righttext_footer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    border: 1px solid rgb(234 234 234);
+    background-color: rgb(250 250 250);
+    flex-wrap: wrap;
+    
 }
