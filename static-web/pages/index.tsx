@@ -4,7 +4,7 @@ import Image from 'next/image'
 import mountain from '.././public/mountain.jpg'
 import styles from '../styles/Home.module.css'
 import { ImageTextCard } from './Components/ImageTextCard'
-import { TextCard } from './Components/textCard'
+import { TextCard } from './Components/TextCard'
 
 
 const Home: NextPage = () => {
@@ -19,17 +19,20 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.head_title_container}>
           <h1 className={styles.blog}>Blog.</h1>
-          
           <p className={styles.right_text}>A statically generated blog example using {""}
           <a className={styles.nextjsLink}  href="https://nextjs.org/" >Next.js</a>
           </p>
         </div>
         <div className={styles.coverimage_container}>
+          <a href='http://localhost:3000/SecondPage'>
           <Image src={mountain}></Image>
+          </a>
         </div>
         <div className={styles.flex_container}>
           <div className={styles.leftside_card}>
+          <a href='http://localhost:3000/SecondPage'>
           <h2 className={styles.leftside_text}>From Server-side Rendering to Static Generation</h2>
+          </a>
           <h5 className={styles.date}>June 2, 2022</h5>
           </div>
          <TextCard

@@ -2,7 +2,7 @@ import React from 'react'
 import seaimage from '../../public/sea.jpg'
 import styles from '../../styles/Home.module.css'
 import Image from 'next/image'
-import  {TextCard} from '../Components/textCard'
+import  {TextCard} from '../Components/TextCard'
 interface PropsTypes{
     title:string;
     date:string;

@@ -54,6 +54,11 @@
     font-size: 2.5rem;
     max-width: 600px;
 }
+.leftside_text:hover,
+.leftside_text:focus,
+.leftside_text:active{
+    text-decoration: underline;
+}
 .date{
     font-size: 1.5rem;
     font-weight: 300;
