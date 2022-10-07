@@ -28,6 +28,7 @@ const Home: NextPage = () => {
           <Image src={mountain}></Image>
           </a>
         </div>
+
         <div className={styles.flex_container}>
           <div className={styles.leftside_card}>
           <a href='http://localhost:3000/SecondPage'>
